@@ -8,6 +8,7 @@
 
 $blue: #232B99;
 $yellow: #E6C137;
+$lightblue: lighten($blue, 30%);
 
 @media screen and (max-width: 600px) {
     header {
@@ -19,6 +20,11 @@ $yellow: #E6C137;
     }
     section {
 
+    }
+    .date {
+        min-width: 20%;
+        font-size: 00.8rem;
+        color: $lightblue;
     }
 }
 
@@ -98,7 +104,7 @@ section {
 
 .date {
     min-width: 30%;
-    margin: 16px 0px 0px 8px;
+    margin: 16px 4px 0px 8px;
     transition: all 0.3s ease-in; 
     
 &:hover {
