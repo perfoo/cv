@@ -34,6 +34,16 @@ body {
   color: #232B99;
 }
 
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+  }
+  #txt {
+    line-height: 0.8rem;
+  }
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;

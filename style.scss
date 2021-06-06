@@ -16,7 +16,15 @@ body {
     box-sizing: border-box;
     color: $blue;
 }
-
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+    }
+    #txt {
+        line-height: 0.8rem;
+    }
+}
 header {
     display: flex;
     width: 100%;
