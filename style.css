@@ -37,11 +37,7 @@ li {
     min-width: 20%;
     font-size: 00.8rem;
     color: #757de0;
-  }
-  .date:hover {
-    -webkit-transform: translate(10px, 30px);
-            transform: translate(10px, 30px);
-    font-size: 0.8rem;
+    pointer-events: none;
   }
 }
 
