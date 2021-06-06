@@ -1,0 +1,134 @@
+@import "./text";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+$blue: #232B99;
+$yellow: #E6C137;
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: gray 1px 1px 3px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    color: $blue;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#txt {
+    color: $yellow ;
+    min-height: 100%;
+    min-width: 70%;
+    background-color: $blue;
+    flex: 2;
+    padding: 40px;
+    box-shadow: 5px 5px 25px $blue;
+    line-height: 2rem;
+    transition: all 0.4s ease-in;
+&:hover {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}}
+
+#img {
+    display: flex;
+    min-height: 100%;
+    min-width: 30%;
+    background-color: $blue;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 25px $blue;
+}
+
+img {
+    min-width: 10%;
+    margin: 10px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+&:hover {
+    border-radius: 5%;
+}}
+
+main { 
+    margin: 8px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    width: 80%;
+    background-color: $yellow;
+    transition: all 0.4s ease-in; 
+    margin: auto;
+    margin-bottom: 6px;
+    animation: sto 2s ease-in;
+&:hover {
+    border-radius: 25px;
+    width: 100%;
+    margin: 8px;
+    font-size: 1.2rem;
+    box-shadow: 5px 5px 15px $blue;
+}}
+
+@keyframes sto {
+    0% {width:100%;}
+    50% {width:60%;}
+    100% {width:80%}
+}
+
+.date {
+    min-width: 30%;
+    margin: 16px 0px 0px 8px;
+    transition: all 0.3s ease-in; 
+    
+&:hover {
+    transform: translate(10px, 50px);
+    font-size: 1.5rem;
+}}
+
+.date2 {
+    min-width: 30%;
+    margin: 16px 0px 0px 8px;
+}
+
+.info {
+    min-width: 70%;
+    margin: 8px;
+}
+
+.hover {
+    background-color: rgba(200, 187, 111, 0.425);
+    position: absolute;
+    width: 100%;
+    min-height: 38px;
+    box-shadow: 5px 5px 15px rgba(200, 187, 111, 0.425);
+    margin: 0px;
+    animation: ime 2s ease-in; 
+}
+@keyframes ime {
+    0% {width: 1%;}
+    100% {width: 100%;}
+}
+
+.ani {
+    animation: roto 2s ease-in;
+    animation-delay: 0.2s;
+}
+
+@keyframes roto {
+    0% {transform: rotateX(0deg); margin-left: 40%;}
+    33% {transform: rotateX(360deg);}
+    66% {transform: rotateX(0deg);}
+    100% {transform: rotateX(360deg);}
+}
