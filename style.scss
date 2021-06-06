@@ -10,7 +10,7 @@ $blue: #232B99;
 $yellow: #E6C137;
 $lightblue: lighten($blue, 30%);
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1450px) {
     header {
         font-size: 0.6rem;
         line-height: 0.8rem;
