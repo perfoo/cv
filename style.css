@@ -54,13 +54,6 @@ header {
   -webkit-box-shadow: 5px 5px 25px #232B99;
           box-shadow: 5px 5px 25px #232B99;
   line-height: 2rem;
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
-}
-
-#txt:hover {
-  font-size: 1.5rem;
-  line-height: 2.4rem;
 }
 
 #img {
