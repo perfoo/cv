@@ -39,6 +39,9 @@ li {
     color: #757de0;
     pointer-events: none;
   }
+  section {
+    font-size: 00.8rem;
+  }
 }
 
 body {
