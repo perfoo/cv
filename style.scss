@@ -9,13 +9,6 @@
 $blue: #232B99;
 $yellow: #E6C137;
 
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: gray 1px 1px 3px;
-    background-color: whitesmoke;
-    box-sizing: border-box;
-    color: $blue;
-}
 @media screen and (max-width: 600px) {
     header {
         font-size: 0.6rem;
@@ -24,7 +17,19 @@ body {
     #txt {
         line-height: 0.8rem;
     }
+    section {
+
+    }
 }
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: gray 1px 1px 3px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    color: $blue;
+}
+
 header {
     display: flex;
     width: 100%;
@@ -71,7 +76,7 @@ main {
 
 section {
     display: flex;
-    width: 80%;
+    width: 90%;
     background-color: $yellow;
     transition: all 0.4s ease-in; 
     margin: auto;
@@ -87,8 +92,8 @@ section {
 
 @keyframes sto {
     0% {width:100%;}
-    50% {width:60%;}
-    100% {width:80%}
+    50% {width:70%;}
+    100% {width:90%}
 }
 
 .date {
