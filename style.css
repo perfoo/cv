@@ -28,7 +28,7 @@ li {
 
 @media screen and (max-width: 780px) {
   header {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     line-height: 0.8rem;
     margin-bottom: 4px;
   }
@@ -40,6 +40,11 @@ li {
     font-size: 00.8rem;
     color: #757de0;
     pointer-events: none;
+  }
+  .date2 {
+    min-width: 20%;
+    font-size: 00.8rem;
+    color: #757de0;
   }
   section {
     font-size: 00.8rem;
@@ -61,6 +66,8 @@ header {
   display: flex;
   width: 100%;
   margin-bottom: 20px;
+  -webkit-box-shadow: 0px 5px 20px #232B99;
+          box-shadow: 0px 5px 20px #232B99;
 }
 
 #txt {
@@ -72,8 +79,6 @@ header {
       -ms-flex: 2;
           flex: 2;
   padding: 40px;
-  -webkit-box-shadow: 5px 5px 25px #232B99;
-          box-shadow: 5px 5px 25px #232B99;
   line-height: 2rem;
 }
 
@@ -93,8 +98,6 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 5px 5px 25px #232B99;
-          box-shadow: 5px 5px 25px #232B99;
 }
 
 img {
@@ -276,7 +279,7 @@ section:hover {
   0% {
     -webkit-transform: rotateX(0deg);
             transform: rotateX(0deg);
-    margin-left: 40%;
+    margin-left: 20%;
   }
   33% {
     -webkit-transform: rotateX(360deg);
@@ -296,7 +299,7 @@ section:hover {
   0% {
     -webkit-transform: rotateX(0deg);
             transform: rotateX(0deg);
-    margin-left: 40%;
+    margin-left: 20%;
   }
   33% {
     -webkit-transform: rotateX(360deg);
