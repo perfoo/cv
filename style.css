@@ -1,5 +1,6 @@
 h2 {
   margin-bottom: 4px;
+  margin-right: 24px;
 }
 
 p {
@@ -25,10 +26,11 @@ li {
   padding: 0;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 780px) {
   header {
     font-size: 0.6rem;
     line-height: 0.8rem;
+    margin-bottom: 4px;
   }
   #txt {
     line-height: 0.8rem;
@@ -170,6 +172,9 @@ section:hover {
   margin: 16px 4px 0px 8px;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
+  -webkit-animation: font 2s ease-in 1s forwards;
+          animation: font 2s ease-in 1s forwards;
+  opacity: 0;
 }
 
 .date:hover {
@@ -178,14 +183,56 @@ section:hover {
   font-size: 1.5rem;
 }
 
+@-webkit-keyframes font {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes font {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .date2 {
   min-width: 30%;
   margin: 16px 0px 0px 8px;
+  -webkit-animation: font 2s ease-in 1s forwards;
+          animation: font 2s ease-in 1s forwards;
+  opacity: 0;
+}
+
+@keyframes font {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .info {
   min-width: 70%;
   margin: 8px;
+  -webkit-animation: font 2s ease-in 1s forwards;
+          animation: font 2s ease-in 1s forwards;
+  opacity: 0;
+}
+
+@keyframes font {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .hover {
