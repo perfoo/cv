@@ -273,6 +273,7 @@ section:hover {
           animation: roto 2s ease-in;
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
+  font-size: 00.8rem;
 }
 
 @-webkit-keyframes roto {
