@@ -101,7 +101,7 @@ header {
 }
 
 img {
-  min-width: 10%;
+  min-width: 30%;
   margin: 10px;
   border-radius: 50%;
   -webkit-transition: all 0.2s ease-in;
@@ -269,11 +269,13 @@ section:hover {
 }
 
 .ani {
-  -webkit-animation: roto 2s ease-in;
-          animation: roto 2s ease-in;
+  -webkit-animation: roto 2s ease-in forwards;
+          animation: roto 2s ease-in forwards;
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
-  font-size: 00.8rem;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  opacity: 0;
 }
 
 @-webkit-keyframes roto {
@@ -285,14 +287,17 @@ section:hover {
   33% {
     -webkit-transform: rotateX(360deg);
             transform: rotateX(360deg);
+    opacity: 0.5;
   }
   66% {
     -webkit-transform: rotateX(0deg);
             transform: rotateX(0deg);
+    opacity: 1;
   }
   100% {
     -webkit-transform: rotateX(360deg);
             transform: rotateX(360deg);
+    opacity: 1;
   }
 }
 
@@ -305,14 +310,17 @@ section:hover {
   33% {
     -webkit-transform: rotateX(360deg);
             transform: rotateX(360deg);
+    opacity: 0.5;
   }
   66% {
     -webkit-transform: rotateX(0deg);
             transform: rotateX(0deg);
+    opacity: 1;
   }
   100% {
     -webkit-transform: rotateX(360deg);
             transform: rotateX(360deg);
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=style.css.map */

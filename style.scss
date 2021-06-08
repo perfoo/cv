@@ -74,7 +74,7 @@ header {
 }
 
 img {
-    min-width: 10%;
+    min-width: 30%;
     margin: 10px;
     border-radius: 50%;
     transition: all 0.2s ease-in;
@@ -168,14 +168,16 @@ section {
 }
 
 .ani {
-    animation: roto 2s ease-in;
+    animation: roto 2s ease-in forwards;
     animation-delay: 0.2s;
-    font-size: 00.8rem;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    opacity: 0;
 }
 
 @keyframes roto {
     0% {transform: rotateX(0deg); margin-left: 20%;}
-    33% {transform: rotateX(360deg);}
-    66% {transform: rotateX(0deg);}
-    100% {transform: rotateX(360deg);}
+    33% {transform: rotateX(360deg); opacity: 0.5;}
+    66% {transform: rotateX(0deg); opacity: 1;}
+    100% {transform: rotateX(360deg); opacity: 1;}
 }
