@@ -50,17 +50,31 @@ header {
     display: flex;
     width: 100%;
     margin-bottom: 20px;
+    background-color: $blue;
     box-shadow: 0px 5px 20px $blue;
 }
 
 #txt {
-    color: $yellow ;
+    color: $blue ;
     min-height: 100%;
     min-width: 70%;
     background-color: $blue;
     flex: 2;
     padding: 40px;
     line-height: 2rem;
+    text-shadow: none;
+    animation: text-shadow 2.5s ease-in forwards;
+}
+
+
+@keyframes text-shadow {
+    0%{text-shadow: none;}
+    33%{text-shadow: $yellow 0px 0px 20px;}
+    66%{text-shadow: none;}
+    75%{color:$blue;}
+    100%{color:$yellow;}
+    
+    
 }
 
 #img {

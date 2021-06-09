@@ -66,12 +66,13 @@ header {
   display: flex;
   width: 100%;
   margin-bottom: 20px;
+  background-color: #232B99;
   -webkit-box-shadow: 0px 5px 20px #232B99;
           box-shadow: 0px 5px 20px #232B99;
 }
 
 #txt {
-  color: #E6C137;
+  color: #232B99;
   min-height: 100%;
   min-width: 70%;
   background-color: #232B99;
@@ -80,6 +81,45 @@ header {
           flex: 2;
   padding: 40px;
   line-height: 2rem;
+  text-shadow: none;
+  -webkit-animation: text-shadow 2.5s ease-in forwards;
+          animation: text-shadow 2.5s ease-in forwards;
+}
+
+@-webkit-keyframes text-shadow {
+  0% {
+    text-shadow: none;
+  }
+  33% {
+    text-shadow: #E6C137 0px 0px 20px;
+  }
+  66% {
+    text-shadow: none;
+  }
+  75% {
+    color: #232B99;
+  }
+  100% {
+    color: #E6C137;
+  }
+}
+
+@keyframes text-shadow {
+  0% {
+    text-shadow: none;
+  }
+  33% {
+    text-shadow: #E6C137 0px 0px 20px;
+  }
+  66% {
+    text-shadow: none;
+  }
+  75% {
+    color: #232B99;
+  }
+  100% {
+    color: #E6C137;
+  }
 }
 
 #img {
