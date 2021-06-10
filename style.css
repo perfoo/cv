@@ -16,7 +16,7 @@ h1 {
 }
 
 li {
-  margin: 24px;
+  margin: 8px 24px 8px 8px;
 }
 
 * {
@@ -58,6 +58,8 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #232B99;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 header {
@@ -191,10 +193,12 @@ section:hover {
     width: 100%;
   }
   50% {
-    width: 50%;
+    width: 60%;
+    font-size: 0.8rem;
   }
   100% {
     width: 90%;
+    font-size: 1rem;
   }
 }
 
@@ -203,10 +207,12 @@ section:hover {
     width: 100%;
   }
   50% {
-    width: 50%;
+    width: 60%;
+    font-size: 0.8rem;
   }
   100% {
     width: 90%;
+    font-size: 1rem;
   }
 }
 
@@ -314,7 +320,7 @@ section:hover {
   -webkit-animation-delay: 0.2s;
           animation-delay: 0.2s;
   font-size: 1.4rem;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   opacity: 0;
 }
 

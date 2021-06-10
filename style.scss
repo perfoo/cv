@@ -44,6 +44,8 @@ body {
     background-color: whitesmoke;
     box-sizing: border-box;
     color: $blue;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -73,8 +75,6 @@ header {
     66%{text-shadow: none;}
     75%{color:$blue;}
     100%{color:$yellow;}
-    
-    
 }
 
 #img {
@@ -121,8 +121,8 @@ section {
 
 @keyframes sto {
     0% {width:100%;}
-    50% {width:50%;}
-    100% {width:90%}
+    50% {width:60%; font-size: 0.8rem}
+    100% {width:90%; font-size: 1rem;}
 }
 
 .date {
@@ -185,7 +185,7 @@ section {
     animation: roto 2s ease-in forwards;
     animation-delay: 0.2s;
     font-size: 1.4rem;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     opacity: 0;
 }
 
