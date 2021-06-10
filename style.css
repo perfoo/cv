@@ -77,7 +77,6 @@ header {
   color: #232B99;
   min-height: 100%;
   min-width: 70%;
-  background-color: #232B99;
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
@@ -130,7 +129,6 @@ header {
   display: flex;
   min-height: 100%;
   min-width: 30%;
-  background-color: #232B99;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -170,13 +168,14 @@ section {
   display: -ms-flexbox;
   display: flex;
   width: 90%;
-  background-color: #E6C137;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
   margin: auto;
   margin-bottom: 6px;
   -webkit-animation: sto 2s ease-in;
           animation: sto 2s ease-in;
+  background: #c8bb6f;
+  background: radial-gradient(circle, rgba(200, 187, 111, 0) 0%, #e6c137 60%);
 }
 
 section:hover {
@@ -285,15 +284,17 @@ section:hover {
 }
 
 .hover {
-  background-color: rgba(200, 187, 111, 0.425);
   position: absolute;
   width: 100%;
-  min-height: 38px;
+  min-height: 36px;
   -webkit-box-shadow: 5px 5px 15px rgba(200, 187, 111, 0.425);
           box-shadow: 5px 5px 15px rgba(200, 187, 111, 0.425);
   margin: 0px;
   -webkit-animation: ime 2s ease-in;
           animation: ime 2s ease-in;
+  background: #c3b322;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(195, 179, 34, 0)), color-stop(70%, rgba(230, 193, 55, 0.827066)));
+  background: linear-gradient(90deg, rgba(195, 179, 34, 0) 0%, rgba(230, 193, 55, 0.827066) 70%);
 }
 
 @-webkit-keyframes ime {
@@ -338,7 +339,7 @@ section:hover {
   66% {
     -webkit-transform: rotateX(0deg);
             transform: rotateX(0deg);
-    opacity: 1;
+    opacity: 0.8;
   }
   100% {
     -webkit-transform: rotateX(360deg);
@@ -361,7 +362,7 @@ section:hover {
   66% {
     -webkit-transform: rotateX(0deg);
             transform: rotateX(0deg);
-    opacity: 1;
+    opacity: 0.8;
   }
   100% {
     -webkit-transform: rotateX(360deg);
