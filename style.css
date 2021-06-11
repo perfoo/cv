@@ -175,7 +175,7 @@ section {
   -webkit-animation: sto 2s ease-in;
           animation: sto 2s ease-in;
   background: #c8bb6f;
-  background: radial-gradient(circle, rgba(200, 187, 111, 0) 0%, #e6c137 60%);
+  background: radial-gradient(circle, rgba(200, 187, 111, 0) 0%, #e6c137 90%);
 }
 
 section:hover {
