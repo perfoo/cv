@@ -46,6 +46,9 @@ li {
     font-size: 00.8rem;
     color: #757de0;
   }
+  .info {
+    min-width: 80%;
+  }
   section {
     font-size: 00.8rem;
   }
