@@ -164,14 +164,14 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-width: 100%;
 }
 
 section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
-  height: 30px;
+  max-width: 90%;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
   margin: auto;
@@ -180,11 +180,12 @@ section {
           animation: sto 2s ease-in forwards;
   background: #c8bb6f;
   background: radial-gradient(circle, rgba(200, 187, 111, 0) 0%, #e6c137 90%);
+  font-size: 1rem;
 }
 
 section:hover {
   border-radius: 25px;
-  width: 100%;
+  max-width: 100%;
   margin: 8px;
   font-size: 1.2rem;
   -webkit-box-shadow: 5px 5px 15px #232B99;
@@ -204,8 +205,6 @@ section:hover {
   100% {
     width: 90%;
     font-size: 1rem;
-    height: -webkit-fit-content;
-    height: fit-content;
   }
 }
 
@@ -222,9 +221,6 @@ section:hover {
   100% {
     width: 90%;
     font-size: 1rem;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
   }
 }
 
