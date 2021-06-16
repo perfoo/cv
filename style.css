@@ -201,6 +201,10 @@ section:hover {
           box-shadow: 5px 5px 15px #232B99;
 }
 
+section p {
+  color: #757de0;
+}
+
 @-webkit-keyframes sto {
   0% {
     width: 100%;

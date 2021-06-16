@@ -120,6 +120,10 @@ section {
     box-shadow: 5px 5px 15px $blue;
 }}
 
+section p {
+    color: $lightblue;
+}
+
 @keyframes sto {
     0% {width:100%;}
     50% {width:60%;}
