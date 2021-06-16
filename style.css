@@ -1,31 +1,31 @@
 h2 {
   margin-bottom: 4px;
   margin-right: 24px;
-  font-size: 3vh;
+  font-size: 3.2vmin;
 }
 
 p {
   margin-right: 24px;
-  font-size: 2.2vmin;
+  font-size: 2vmin;
 }
 
 h4 {
   margin: 8px 24px 8px 0px;
-  font-size: 1.8vmin;
+  font-size: 2.2vmin;
 }
 
 h1 {
-  margin: 5px 0px 5px 0px;
+  margin: 5px 0px 10px 0px;
   font-size: 5.9vmin;
 }
 
 li {
   margin: 8px 24px 8px 8px;
-  font-size: 2.2vmin;
+  font-size: 2.6vmin;
 }
 
 h3 {
-  font-size: 2.3vmin;
+  font-size: 2.8vmin;
 }
 
 * {
@@ -37,29 +37,23 @@ h3 {
 
 @media screen and (max-width: 780px) {
   header {
-    font-size: 0.8rem;
-    line-height: 0.8rem;
+    line-height: 0.8;
     margin-bottom: 4px;
   }
   #txt {
-    line-height: 0.8rem;
+    line-height: 1.8;
   }
   .date {
-    min-width: 20%;
-    font-size: 00.8rem;
+    min-width: 10%;
     color: #757de0;
     pointer-events: none;
   }
   .date2 {
-    min-width: 20%;
-    font-size: 00.8rem;
+    min-width: 10%;
     color: #757de0;
   }
   .info {
-    min-width: 80%;
-  }
-  section {
-    font-size: 00.8rem;
+    min-width: 90%;
   }
 }
 
@@ -79,7 +73,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   background-color: #232B99;
   -webkit-box-shadow: 0px 5px 20px #232B99;
           box-shadow: 0px 5px 20px #232B99;
@@ -93,7 +87,7 @@ header {
       -ms-flex: 2;
           flex: 2;
   padding: 40px;
-  line-height: 2rem;
+  line-height: 1.6;
   text-shadow: none;
   -webkit-animation: text-shadow 2.5s ease-in forwards;
           animation: text-shadow 2.5s ease-in forwards;
@@ -114,6 +108,7 @@ header {
   }
   100% {
     color: #E6C137;
+    text-shadow: black 2px 2px 8px;
   }
 }
 
@@ -132,6 +127,7 @@ header {
   }
   100% {
     color: #E6C137;
+    text-shadow: black 2px 2px 8px;
   }
 }
 
@@ -158,6 +154,8 @@ img {
   border-radius: 50%;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+  -webkit-box-shadow: 2px 2px 8px black;
+          box-shadow: 2px 2px 8px black;
 }
 
 img:hover {
@@ -185,7 +183,7 @@ section {
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
   margin: auto;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   -webkit-animation: sto 2s ease-in forwards;
           animation: sto 2s ease-in forwards;
   background: #c8bb6f;
@@ -198,7 +196,7 @@ section:hover {
   margin: auto;
   margin-bottom: 8px;
   margin-top: 4px;
-  font-size: larger;
+  font-size: large;
   -webkit-box-shadow: 5px 5px 15px #232B99;
           box-shadow: 5px 5px 15px #232B99;
 }
@@ -230,8 +228,6 @@ section:hover {
 .date {
   min-width: 30%;
   margin: 16px 4px 0px 8px;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
   -webkit-animation: font 2s ease-in 1s forwards;
           animation: font 2s ease-in 1s forwards;
   opacity: 0;
