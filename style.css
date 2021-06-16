@@ -1,31 +1,31 @@
 h2 {
   margin-bottom: 4px;
   margin-right: 24px;
-  font-size: 3.2vmin;
+  font-size: 3.8vmin;
 }
 
 p {
   margin-right: 24px;
-  font-size: 2vmin;
+  font-size: 2.5vmin;
 }
 
 h4 {
   margin: 8px 24px 8px 0px;
-  font-size: 2.2vmin;
+  font-size: 2.6vmin;
 }
 
 h1 {
   margin: 5px 0px 10px 0px;
-  font-size: 5.9vmin;
+  font-size: 6.2vmin;
 }
 
 li {
   margin: 8px 24px 8px 8px;
-  font-size: 2.6vmin;
+  font-size: 3vmin;
 }
 
 h3 {
-  font-size: 2.8vmin;
+  font-size: 3.2vmin;
 }
 
 * {
@@ -192,7 +192,7 @@ section {
 
 section:hover {
   border-radius: 25px;
-  min-width: 99%;
+  min-width: 95%;
   margin: auto;
   margin-bottom: 8px;
   margin-top: 4px;
