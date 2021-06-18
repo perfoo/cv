@@ -11,6 +11,10 @@ $yellow: #E6C137;
 $lightblue: lighten($blue, 30%);
 
 @media screen and (max-width: 780px) {
+    section {
+        padding: 8px;
+    }
+
     header {
         line-height: 0.8;
         margin-bottom: 4px;
