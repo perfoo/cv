@@ -37,7 +37,7 @@ h3 {
 
 @media screen and (max-width: 780px) {
   section {
-    padding: 8px;
+    padding: 0px 8px 0px 0px;
   }
   header {
     line-height: 0.8;
