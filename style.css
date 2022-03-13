@@ -31,8 +31,8 @@ h3 {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 @media screen and (max-width: 780px) {
@@ -61,6 +61,8 @@ h3 {
 }
 
 body {
+  width: 100%;
+  height: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-shadow: gray 1px 1px 3px;
   background-color: whitesmoke;
@@ -68,7 +70,7 @@ body {
           box-sizing: border-box;
   color: #232B99;
   max-width: 100%;
-  overflow: auto;
+  overflow-x: hidden;
 }
 
 header {
