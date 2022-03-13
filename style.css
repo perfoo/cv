@@ -297,11 +297,10 @@ section p {
 
 .hover {
   position: absolute;
-  min-width: 90%;
   min-height: 36px;
   margin: 0px;
-  -webkit-animation: ime 2s ease-in;
-          animation: ime 2s ease-in;
+  -webkit-animation: ime 2s ease-in forwards;
+          animation: ime 2s ease-in forwards;
   background: #c3b322;
   background: -webkit-gradient(linear, left top, right top, from(rgba(230, 193, 55, 0.827066)), color-stop(70%, rgba(195, 179, 34, 0)));
   background: linear-gradient(90deg, rgba(230, 193, 55, 0.827066) 0%, rgba(195, 179, 34, 0) 70%);
@@ -312,7 +311,7 @@ section p {
     width: 1%;
   }
   100% {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -321,7 +320,7 @@ section p {
     width: 1%;
   }
   100% {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -330,6 +329,7 @@ section p {
           animation: roto 2s ease-in 1s forwards;
   font-size: 1.4rem;
   margin-bottom: 12px;
+  margin-left: 4px;
   opacity: 0;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
