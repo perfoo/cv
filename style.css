@@ -297,7 +297,7 @@ section p {
 
 .hover {
   position: absolute;
-  width: 100%;
+  min-width: 98%;
   min-height: 36px;
   -webkit-box-shadow: 5px 5px 15px rgba(200, 187, 111, 0.425);
           box-shadow: 5px 5px 15px rgba(200, 187, 111, 0.425);
